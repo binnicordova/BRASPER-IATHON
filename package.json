@@ -11,6 +11,6 @@
     "init": "git submodule update --init --recursive",
     "sync": "git submodule update --remote",
     "status": "git submodule status",
-    "test:whatsapp": "cd whatsapp-agent/kapso && node --test"
+    "test:whatsapp": "cd whatsapp-agent/waha && node --test \"test/**/*.test.js\""
   }
 }

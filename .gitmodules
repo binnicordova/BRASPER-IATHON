@@ -10,3 +10,4 @@
 [submodule "whatsapp-agent"]
 	path = whatsapp-agent
 	url = https://github.com/davidrodriguez2712/iaton-proyecto.git
+	branch = main
