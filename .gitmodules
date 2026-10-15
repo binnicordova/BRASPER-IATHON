@@ -4,3 +4,9 @@
 [submodule "web"]
 	path = web
 	url = https://github.com/jordyalania/brasper-global-connect.git
+[submodule "backoffice"]
+	path = backoffice
+	url = https://github.com/Melani232000/the-view.git
+[submodule "whatsapp-agent"]
+	path = whatsapp-agent
+	url = https://github.com/davidrodriguez2712/iaton-proyecto.git

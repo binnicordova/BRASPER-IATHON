@@ -9,9 +9,9 @@ Repositorio paraguas del equipo **5.5** para IATHON Perú 2026. No duplica códi
 | Carpeta | Qué es | Repositorio |
 |---|---|---|
 | [`app/`](app) | App Expo (iOS, Android, web), asistente de IA con LangGraph + Gemma, Cloud Functions y reglas de Firebase (`aibrasper`) | [binnicordova/iathon-fintech](https://github.com/binnicordova/iathon-fintech) |
-| [`web/`](web) | Sitio web y portal de transferencias sobre las Cloud Functions de BRASPER (Lovable), con panel interno y rutas de WhatsApp | [jordyalania/brasper-global-connect](https://github.com/jordyalania/brasper-global-connect) |
-
-Pendientes de agregar: agente de WhatsApp y backoffice, si viven en repositorios aparte.
+| [`web/`](web) | Sitio web y portal de transferencias sobre las Cloud Functions de BRASPER (Lovable) | [jordyalania/brasper-global-connect](https://github.com/jordyalania/brasper-global-connect) |
+| [`backoffice/`](backoffice) | Backoffice (VIEW) para validar, exportar y revisar las operaciones | [Melani232000/the-view](https://github.com/Melani232000/the-view) |
+| [`whatsapp-agent/`](whatsapp-agent) | Agente de WhatsApp de BRASPER | [davidrodriguez2712/iaton-proyecto](https://github.com/davidrodriguez2712/iaton-proyecto) |
 
 ## Clonar todo
 
