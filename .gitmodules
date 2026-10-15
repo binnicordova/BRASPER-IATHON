@@ -1,12 +1,15 @@
 [submodule "app"]
 	path = app
 	url = https://github.com/binnicordova/iathon-fintech.git
+	branch = main
 [submodule "web"]
 	path = web
 	url = https://github.com/jordyalania/brasper-global-connect.git
+	branch = main
 [submodule "backoffice"]
 	path = backoffice
 	url = https://github.com/Melani232000/the-view.git
+	branch = main
 [submodule "whatsapp-agent"]
 	path = whatsapp-agent
 	url = https://github.com/davidrodriguez2712/iaton-proyecto.git

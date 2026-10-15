@@ -96,7 +96,7 @@ Cada operación nace como un registro (p. ej. `BR-0001`) y avanza por `pending �
 | [`backoffice/`](backoffice) | Melani | THE VIEW: valida, exporta y factura las operaciones de todos los canales | [Melani232000/the-view](https://github.com/Melani232000/the-view) |
 | [`whatsapp-agent/`](whatsapp-agent) | David | Agente de WhatsApp sobre WAHA con Claude Haiku y el backend real de Firebase (`waha/`), más un prototipo en Kapso (`kapso/`) | [davidrodriguez2712/iaton-proyecto](https://github.com/davidrodriguez2712/iaton-proyecto) |
 
-> `whatsapp-agent/` sigue la rama `main` de su repositorio, que es donde está el bot de WAHA. La rama por defecto de ese repositorio en GitHub es otra (`feat/brasper-whatsapp-kapso`).
+> Los 4 submódulos siguen la rama `main` de su repositorio (ver `.gitmodules`). Para traer lo último: `npm run sync`.
 
 Cada pieza trae su propio `.env.example`: [`app/.env.example`](app/.env.example), [`web/.env.example`](web/.env.example), [`backoffice/.env.example`](backoffice/.env.example) y [`whatsapp-agent/waha/.env.example`](whatsapp-agent/waha/.env.example). Ninguno lleva claves privadas.
 
