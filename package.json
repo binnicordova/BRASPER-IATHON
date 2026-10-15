@@ -1,0 +1,16 @@
+{
+  "name": "brasper-iathon",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Repositorio paraguas de BRASPER para IATHON Perú 2026 (equipo 5.5): app, web, backoffice y agente de WhatsApp como submódulos.",
+  "license": "SEE LICENSE IN license",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "init": "git submodule update --init --recursive",
+    "sync": "git submodule update --remote",
+    "status": "git submodule status",
+    "test:whatsapp": "cd whatsapp-agent/kapso && node --test"
+  }
+}
