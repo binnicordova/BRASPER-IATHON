@@ -37,9 +37,9 @@ sequenceDiagram
 sequenceDiagram
     autonumber
     actor C as Cliente
-    participant CH as Canal (WhatsApp con IA, App con IA o Web)
-    participant F as Cloud Functions (Firebase aibrasper)
-    participant DB as Firestore (un registro por operación)
+    participant CH as Canal WhatsApp, App o Web
+    participant F as Cloud Functions
+    participant DB as Firestore
     actor A as Asesora
     participant B as Backoffice THE VIEW
 
