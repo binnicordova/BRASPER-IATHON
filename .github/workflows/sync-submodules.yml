@@ -23,7 +23,9 @@ jobs:
           submodules: true
 
       - name: Point every submodule to the latest main
-        run: git submodule update --remote
+        run: |
+          git submodule foreach --quiet 'git fetch --quiet origin main && git checkout --quiet FETCH_HEAD'
+          git submodule status
 
       - name: Commit and push if something moved
         run: |
