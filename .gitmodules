@@ -1,0 +1,6 @@
+[submodule "app"]
+	path = app
+	url = https://github.com/binnicordova/iathon-fintech.git
+[submodule "web"]
+	path = web
+	url = https://github.com/jordyalania/brasper-global-connect.git
