@@ -132,7 +132,7 @@ Backend local sin tocar producción (desde `app/`): `bun run functions:install &
 
 ## Actualizar los submódulos
 
-Este repositorio guarda un commit fijo de cada pieza. Para traer lo último de cada repositorio:
+Git guarda en un submódulo un commit fijo, no una rama: no puede "seguir" `main` por sí solo. Por eso el workflow [`sync-submodules`](.github/workflows/sync-submodules.yml) mueve cada puntero al último commit de `main` cada 10 minutos (y se puede lanzar a mano desde la pestaña Actions). Para hacerlo en tu máquina:
 
 ```bash
 git submodule update --remote
