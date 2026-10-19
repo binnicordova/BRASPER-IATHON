@@ -4,6 +4,18 @@
 
 No duplica código: cada carpeta es un **submódulo** que apunta al repositorio público donde vive esa pieza.
 
+## La presentación y la demo
+
+<p align="center">
+  <img src="docs/presentacion.gif" width="720" alt="Presentación del equipo 5.5: de un chat de WhatsApp a una operación aprobada por una asesora, con IA, en la web, WhatsApp y la app">
+</p>
+
+| | |
+|---|---|
+| 🎤 **Presentación interactiva (7 min)** | [binnicordova.github.io/iathon-fintech/presentation](https://binnicordova.github.io/iathon-fintech/presentation/) |
+| ▶️ **Demo en video** | [youtu.be/X9bkr5w8O80](https://youtu.be/X9bkr5w8O80) |
+| 📲 **Probar la app (Android)** | [binnicordova.github.io/iathon-fintech/app](https://binnicordova.github.io/iathon-fintech/app/) |
+
 ## El objetivo: que BrasPer venda más remesas con el mismo equipo
 
 BrasPer ya crece (3,776 envíos en el 2T 2026, +24.7%), pero el proceso de venta sigue a mano. De unos 131 chats diarios en WhatsApp solo 67 (51.1%) terminan en transferencia; los otros 64 se quedan en cotización. Cada venta pasa por cuatro pasos manuales y el mismo dato vive en dos lugares, así que **atender más chats exige sumar vendedores**.
